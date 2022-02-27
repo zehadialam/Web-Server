@@ -18,12 +18,14 @@ To connect to the server, open a web browser and type in the following in the ad
 ```
 [server-IP]:[port-number]/[path-to-resource].[file-extension]
 ```
-Example: 128.238.251.26:6789/HelloWorld.html
+Example: ```128.238.251.26:6789/HelloWorld.html```
 
-## Example Output
+## Example Run
 ```
 python webserver.py -r content -p 12000
+```
 
+```
 128.238.251.26 is serving on port 12000
 
 Received message from ('128.101.125.111', 51614)
