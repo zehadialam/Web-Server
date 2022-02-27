@@ -80,7 +80,7 @@ def parse_argument():
     """Creates a command-line interface for taking arguments."""
     parser = argparse.ArgumentParser(description='Start a web server')
     parser.add_argument('-r', dest='OBJECT_DIR', type=str, required=True, help='Root directory for files')
-    parser.add_argument('-p', dest='PORT', type=int, default=12000,
+    parser.add_argument('-p', dest='PORT', type=int, default=80,
                         help='The port number on which the server will be listening for incoming connections')
     the_args = parser.parse_args()
     return the_args
