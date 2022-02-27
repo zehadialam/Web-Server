@@ -6,7 +6,13 @@ This is a web server program that accepts HTTP requests and sends the requested 
 
 ## Running the Server
 
-The syntax for running the server is as follows:
+The syntax for running the server is as follows: <br>
+Windows:
+```
+python webserver.py -r [root-directory] -p [port-number] 
+``` 
+UNIX:
+Windows:
 ```
 python webserver.py -r [root-directory] -p [port-number] 
 ``` 
