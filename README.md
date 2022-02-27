@@ -6,18 +6,18 @@ This is a web server program that accepts HTTP requests and sends the requested 
 
 ## Running the Server
 
-The syntax for running the server is as follows: <br><br>
+The syntax for running the server is as follows:
 ```
 python webserver.py -r [root-directory] -p [port-number] 
 ``` 
-<br>
-
 The ```-p``` argument is optional. The server listens on port 80 by default. This is the standard port number for HTTP.
 
 ## Connecting to the Server
 
 To connect to the server, open a web browser and type in the following in the address bar (filling in the appropriate info as needed): <br>
-```[server-IP]:[port-number]/[path-to-resource].[file-extension]``` <br>
+```
+[server-IP]:[port-number]/[path-to-resource].[file-extension]
+```
 Example: 128.238.251.26:6789/HelloWorld.html
 
 ## Example Output
