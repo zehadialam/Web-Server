@@ -20,7 +20,7 @@ To connect to the server, open a web browser and type in the following in the ad
 ```
 Example: ```128.238.251.26:6789/HelloWorld.html```
 
-## Example Run
+## Example Output
 ```
 python webserver.py -r content -p 12000
 ```
