@@ -13,4 +13,5 @@ The ``-p`` argument is optional. The server listens on port 80 by default. This 
 ## Connecting to the Server
 
 To connect to the server, open a web browser and type in the following in the address bar (filling in the appropriate info as needed): <br>
-``[server-IP]:[port-number]/[path-to-resource].[file-extension]``
+``[server-IP]:[port-number]/[path-to-resource].[file-extension]`` <br>
+Example: 128.238.251.26:6789/HelloWorld.html
